@@ -280,7 +280,7 @@ const run = async () => {
       } catch (err) {
         console.log(`  ⚠️  Could not save Excel (is it open in another program?): ${err.message}`);
       }
-
+ 
       await randomDelay(4000, 7000);
     }
 
